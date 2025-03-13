@@ -72,7 +72,7 @@ To run:
 python source/ProcessStateSupport.py
 ```
 
-# Processing planned infrastructure corridors for heavy duty vehicles
+## Processing planned infrastructure corridors for heavy duty vehicles
 
 The script [PrepareInfrastructureCorridors.py](./source/PrepareInfrastructureCorridors.py) reads in either a shapefile with the US highway system, or shapefiles with specific regions of planned heavy duty vehicle infrastructure corridors [announced by the Biden-Harris administration](https://www.energy.gov/articles/biden-harris-administration-announces-funding-zero-emission-medium-and-heavy-duty-vehicle). For corridors represented as subsets of the national highway system, the code produces shapefiles for each highway segment with a planned infrastructure project. For corridors represented as regions of the US, the code produces shapefiles showing the region(s) where the planned infrastructure project will take place. 
 
