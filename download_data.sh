@@ -70,10 +70,10 @@ cd data
 #unzip_file "FAF5_regions.zip" "FAF5_regions"
 #######################
 #
-##### FAF5 Network Links ####
-## from https://geodata.bts.gov/datasets/usdot::freight-analysis-framework-faf5-network-links
-#download_file "https://stg-arcgisazurecdataprod.az.arcgis.com/exportfiles-273-10164/NTAD_Freight_Analysis_Framework_Network_Links_-2286167086800774353.zip?sv=2018-03-28&sr=b&sig=hiBwWlLYrOLmNUPPaGCwQ8AHEUcNiE1mRgYjC7DnGWA%3D&se=2024-07-24T14%3A00%3A36Z&sp=r" "FAF5_network_links.zip"
-#unzip_file "FAF5_network_links.zip" "FAF5_network_links"
+#### FAF5 Network Links ####
+# from https://geodata.bts.gov/datasets/usdot::freight-analysis-framework-faf5-network-links
+download_file "https://stg-arcgisazurecdataprod.az.arcgis.com/exportfiles-273-10164/NTAD_Freight_Analysis_Framework_Network_Links_-2286167086800774353.zip?sv=2018-03-28&sr=b&sig=jE2wDz2OPyIjo3d02njFEomK23qvTto7L4JHpPcA0qQ%3D&se=2025-07-07T19%3A57%3A32Z&sp=r" "FAF5_network_links.zip"
+unzip_file "FAF5_network_links.zip" "FAF5_network_links"
 #############################
 #
 ##### FAF5 Highway Network Assignments ####
@@ -235,8 +235,8 @@ cd data
 ## Attribution: ElectricityMaps (website: https://www.electricitymaps.com/data-portal. GitHub: https://github.com/electricitymaps/electricitymaps-contrib)
 #download_file https://raw.githubusercontent.com/electricitymaps/electricitymaps-contrib/master/web/geo/world.geojson
 
-download_file https://driveelectric.gov/files/zef-gis-files.zip
-unzip_file zef-gis-files.zip zef-gis-files
+#download_file https://driveelectric.gov/files/zef-gis-files.zip
+#unzip_file zef-gis-files.zip zef-gis-files
 
 # Change back to the original directory
 cd ..
