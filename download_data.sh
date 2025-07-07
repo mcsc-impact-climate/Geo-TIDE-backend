@@ -66,13 +66,13 @@ cd data
 
 ##### FAF5 Regions ####
 ## from https://geodata.bts.gov/datasets/usdot::freight-analysis-framework-faf5-regions
-#download_file "https://stg-arcgisazurecdataprod.az.arcgis.com/exportfiles-273-10162/NTAD_Freight_Analysis_Framework_Regions_-8678979836664102029.zip?sv=2018-03-28&sr=b&sig=aNMmUZdj7CFgNNXzryo6cEJPKoOTD7fosDRDd9KsL9A%3D&se=2024-07-31T22%3A24%3A16Z&sp=r" "FAF5_regions.zip"
+#download_file "https://stg-arcgisazurecdataprod.az.arcgis.com/exportfiles-273-10162/NTAD_Freight_Analysis_Framework_Regions_-8678979836664102029.zip" "FAF5_regions.zip"
 #unzip_file "FAF5_regions.zip" "FAF5_regions"
 #######################
 #
 #### FAF5 Network Links ####
 # from https://geodata.bts.gov/datasets/usdot::freight-analysis-framework-faf5-network-links
-download_file "https://stg-arcgisazurecdataprod.az.arcgis.com/exportfiles-273-10164/NTAD_Freight_Analysis_Framework_Network_Links_-2286167086800774353.zip?sv=2018-03-28&sr=b&sig=jE2wDz2OPyIjo3d02njFEomK23qvTto7L4JHpPcA0qQ%3D&se=2025-07-07T19%3A57%3A32Z&sp=r" "FAF5_network_links.zip"
+download_file "https://stg-arcgisazurecdataprod.az.arcgis.com/exportfiles-273-10164/NTAD_Freight_Analysis_Framework_Network_Links_-2286167086800774353.zip" "FAF5_network_links.zip"
 unzip_file "FAF5_network_links.zip" "FAF5_network_links"
 #############################
 #
@@ -206,7 +206,7 @@ unzip_file "FAF5_network_links.zip" "FAF5_network_links"
 #
 ##### Truck stop parking data ####
 ## from https://geodata.bts.gov/datasets/usdot::truck-stop-parking
-#download_file "https://stg-arcgisazurecdataprod.az.arcgis.com/exportfiles-273-10043/NTAD_Truck_Stop_Parking_-2623767270591943357.zip?sv=2018-03-28&sr=b&sig=G5yCQkJZAajvpB1NwdERdL22M3D5OOJlGU%2BPQ0NVYz8%3D&se=2024-08-03T19%3A56%3A17Z&sp=r" "Truck_Stop_Parking.zip"
+#download_file "https://stg-arcgisazurecdataprod.az.arcgis.com/exportfiles-273-10043/NTAD_Truck_Stop_Parking_-2623767270591943357.zip" "Truck_Stop_Parking.zip"
 #unzip_file "Truck_Stop_Parking.zip" "Truck_Stop_Parking"
 ##################################
 #
