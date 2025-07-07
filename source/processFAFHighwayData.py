@@ -97,7 +97,7 @@ def read_highway_assignments(top_dir, unit_type="All", include_trips=True):
         highway_assignment_modifier = "CU "
 
     highway_assignments_df = pd.read_csv(
-        f"{top_dir}/data/FAF5_Highway_Assignment_Results/FAF5_2022_Highway_Assignment_Results/Assignment Flow Tables/CSV Format/FAF5 Total {highway_assignment_modifier}Truck Flows by Commodity_2022.csv"
+        f"{top_dir}/data/FAF5_Highway_Assignment_Results/FAF5_2022_Highway_Assignment_Results/Assignment_Flow_Tables/CSV_Format/FAF5_Total_{highway_assignment_modifier}Truck_Flows_by_Commodity_2022.csv"
     )
 
     # Filter for the columns we're interested in
@@ -120,30 +120,30 @@ def main():
     top_dir = get_top_dir()
 
     # Read in the highway flow assignments for each link
-    df_highway_assignments_all = read_highway_assignments(top_dir, unit_type="All")
-    df_highway_assignments_su = read_highway_assignments(top_dir, unit_type="SU")
-    df_highway_assignments_cu = read_highway_assignments(top_dir, unit_type="CU")
+#    df_highway_assignments_all = read_highway_assignments(top_dir, unit_type="All")
+#    df_highway_assignments_su = read_highway_assignments(top_dir, unit_type="SU")
+#    df_highway_assignments_cu = read_highway_assignments(top_dir, unit_type="CU")
     df_highway_assignments_interstate = read_highway_assignments(
         top_dir, unit_type="All", include_trips=True
     )
     # start_time = time.time()
 
     # Merge the highway flow assignments in with the shapefile containing the highway links
-    merged_dataframe_all_nomin = mergeShapefile(
-        df_highway_assignments_all,
-        f"{top_dir}/data/FAF5_network_links/Freight_Analysis_Framework_(FAF5)_Network_Links.shp",
-        min_tonnage=0,
-    )
-    merged_dataframe_su = mergeShapefile(
-        df_highway_assignments_su,
-        f"{top_dir}/data/FAF5_network_links/Freight_Analysis_Framework_(FAF5)_Network_Links.shp",
-        min_tonnage=10000,
-    )
-    merged_dataframe_cu = mergeShapefile(
-        df_highway_assignments_cu,
-        f"{top_dir}/data/FAF5_network_links/Freight_Analysis_Framework_(FAF5)_Network_Links.shp",
-        min_tonnage=10000,
-    )
+#    merged_dataframe_all_nomin = mergeShapefile(
+#        df_highway_assignments_all,
+#        f"{top_dir}/data/FAF5_network_links/Freight_Analysis_Framework_(FAF5)_Network_Links.shp",
+#        min_tonnage=0,
+#    )
+#    merged_dataframe_su = mergeShapefile(
+#        df_highway_assignments_su,
+#        f"{top_dir}/data/FAF5_network_links/Freight_Analysis_Framework_(FAF5)_Network_Links.shp",
+#        min_tonnage=10000,
+#    )
+#    merged_dataframe_cu = mergeShapefile(
+#        df_highway_assignments_cu,
+#        f"{top_dir}/data/FAF5_network_links/Freight_Analysis_Framework_(FAF5)_Network_Links.shp",
+#        min_tonnage=10000,
+#    )
     merged_dataframe_interstate = mergeShapefile(
         df_highway_assignments_interstate,
         f"{top_dir}/data/FAF5_network_links/Freight_Analysis_Framework_(FAF5)_Network_Links.shp",
@@ -154,18 +154,18 @@ def main():
     # print(f'Merging took {time.time() - start_time} seconds')
 
     # Save the merged shapefile
-    saveShapefile(
-        merged_dataframe_all_nomin,
-        f"{top_dir}/data/highway_assignment_links/highway_assignment_links_nomin.shp",
-    )
-    saveShapefile(
-        merged_dataframe_su,
-        f"{top_dir}/data/highway_assignment_links/highway_assignment_links_single_unit.shp",
-    )
-    saveShapefile(
-        merged_dataframe_cu,
-        f"{top_dir}/data/highway_assignment_links/highway_assignment_links_combined_unit.shp",
-    )
+#    saveShapefile(
+#        merged_dataframe_all_nomin,
+#        f"{top_dir}/data/highway_assignment_links/highway_assignment_links_nomin.shp",
+#    )
+#    saveShapefile(
+#        merged_dataframe_su,
+#        f"{top_dir}/data/highway_assignment_links/highway_assignment_links_single_unit.shp",
+#    )
+#    saveShapefile(
+#        merged_dataframe_cu,
+#        f"{top_dir}/data/highway_assignment_links/highway_assignment_links_combined_unit.shp",
+#    )
     saveShapefile(
         merged_dataframe_interstate,
         f"{top_dir}/data/highway_assignment_links/highway_assignment_links_interstate.shp",
