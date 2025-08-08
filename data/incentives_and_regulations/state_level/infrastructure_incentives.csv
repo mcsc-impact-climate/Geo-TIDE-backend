@@ -9,11 +9,9 @@ Arizona,Commercial Electric Vehicle (EV) Charging Station Rebate - Salt River Pr
 Arizona,Commercial Electrification Rebates - Salt River Project (SRP),Electricity,https://afdc.energy.gov/laws/12593
 Arizona,Commercial Electric Vehicle (EV) Charging Station Rebate – Tucson Electric Power (TEP),Electricity,https://afdc.energy.gov/laws/12402
 Arizona,Electric Vehicle (EV) Charging Station Rebate - Mohave Electric Cooperative (MEH),Electricity,https://afdc.energy.gov/laws/13017
-Arkansas,Electric Vehicle (EV) Charging Station Grants,Electricity,https://afdc.energy.gov/laws/12667
 California,Electric Vehicle (EV) Charging Station Incentive Program Support,Electricity,https://afdc.energy.gov/laws/11999
 California,Alternative Fuel and Vehicle Incentives,"Biodiesel, Ethanol, Electricity, Hydrogen, Natural Gas, Propane",https://afdc.energy.gov/laws/6307
 California,Electric Vehicle (EV) Charging Station Incentives - San Joaquin Valley,"Biodiesel, Ethanol, Electricity, Hydrogen, Natural Gas, Propane",https://afdc.energy.gov/laws/11657
-California,Alternative Fuel Infrastructure Grant – Santa Barbara County,"Biodiesel, Ethanol, Electricity, Hydrogen, Natural Gas, Propane",https://afdc.energy.gov/laws/12505
 California,Commercial Electric Vehicle (EV) and EV Charging Station Rebates - TID,Electricity,https://afdc.energy.gov/laws/12602
 California,Electric Vehicle (EV) Charging Station Incentives for Medium- and Heavy-Duty Fleets - PG&E,Electricity,https://afdc.energy.gov/laws/12336
 California,Electric Vehicle (EV) Charging Station Rebate - Alameda Municipal Power (AMP),Electricity,https://afdc.energy.gov/laws/12102
@@ -25,6 +23,7 @@ California,Commercial Electric Vehicle (EV) Charging Station Rebate - LADWP,Elec
 California,Electric Vehicle (EV) Charging Station Incentive – SDG&E,Electricity,https://afdc.energy.gov/laws/12510
 California,Alternative Fuel Vehicle (AFV) and Fueling Infrastructure Grants,"Biodiesel, Ethanol, Electricity, Hydrogen, Natural Gas, Propane",https://afdc.energy.gov/laws/6132
 California,Establishment of a Zero Emission Medium- and Heavy-Duty Vehicle Program,"Electricity, Hydrogen",https://afdc.energy.gov/laws/11528
+California,Medium- and Heavy-Duty (MHD) Zero Emission Vehicle (ZEV) and Fueling Station Financing Program ,"Electricity, Hydrogen",https://afdc.energy.gov/laws/13509
 Colorado,Fleet Electric Vehicle (EV) Charging Station Grants,Electricity,https://afdc.energy.gov/laws/13243
 Colorado,Non-Residential Electric Vehicle (EV) Charging Station Rebate – Black Hills Energy,Electricity,https://afdc.energy.gov/laws/12436
 Colorado,Electric Vehicle (EV) Charging Stations Funding Authorization,Electricity,https://afdc.energy.gov/laws/12635
@@ -54,7 +53,6 @@ Kansas,Flex Fuel Grant Program - Kansas Corn Commission (KCC),Ethanol,https://af
 Kentucky,Electric Vehicle (EV) Charging Station Rebate – Tennessee Valley Authority (TVA),Electricity,https://afdc.energy.gov/laws/13232
 Louisiana,Electric Equipment and Electric Vehicle (EV) Charging Station Incentive - Entergy,Electricity,https://afdc.energy.gov/laws/12260
 Maine,Clean Transportation and Infrastructure Loans,"Electricity, Hydrogen",https://afdc.energy.gov/laws/12682
-Maryland,Electric Vehicle (EV) Corridor Charging Grant,Electricity,https://afdc.energy.gov/laws/12529
 Maryland,Electric Vehicle (EV) Charging Station Rebate Program,Electricity,https://afdc.energy.gov/laws/11423
 Maryland,Solar Canopy Electric Vehicle (EV) Infrastructure Grant,Electricity,https://afdc.energy.gov/laws/12662
 Maryland,Commercial Electric Vehicle (EV) Charging Station Rebates – BGE,Electricity,https://afdc.energy.gov/laws/12939
@@ -122,18 +120,14 @@ North Dakota,Renewable Fuels Promotion,"Biodiesel, Ethanol, Hydrogen",https://af
 Ohio,Electric Vehicle (EV) Charging Station Rebate – Firelands Electric Cooperative (FEC),Electricity,https://afdc.energy.gov/laws/12750
 Oklahoma,Alternative Fueling Infrastructure Tax Credit,"Electricity, Hydrogen, Natural Gas, Propane",https://afdc.energy.gov/laws/5951
 Oklahoma,Electric Vehicle (EV) Charging Station Tax Exemption,Electricity,https://afdc.energy.gov/laws/12648
-Oklahoma,Biofuels Construction and Permitting Assistance,"Biodiesel, Ethanol",https://afdc.energy.gov/laws/11045
 Oklahoma,Natural Gas Vehicle (NGV) and Infrastructure Rebate - Oklahoma Natural Gas,Natural Gas,https://afdc.energy.gov/laws/10333
 Oregon,Biofuels Production Property Tax Exemption,"Biodiesel, Ethanol",https://afdc.energy.gov/laws/6273
 Oregon,Electric Vehicle (EV) Charging Station Rebates - Eugene Water & Electric Board (EWEB),Electricity,https://afdc.energy.gov/laws/12295
 Oregon,Electric Vehicle (EV) Technology Grant – Pacific Power,Electricity,https://afdc.energy.gov/laws/13180
 Oregon,Electric Vehicle (EV) Charging Station Rebate – Pacific Power,Electricity,https://afdc.energy.gov/laws/13115
 Oregon,Volkswagen (VW) Settlement Allocation,Electricity,https://afdc.energy.gov/laws/11940
-Pennsylvania,Electric Vehicle (EV) Charging Station and Hydrogen Fuel Cell Infrastructure Grants,"Electricity, Hydrogen",https://afdc.energy.gov/laws/11989
-Pennsylvania,Electric Vehicle (EV) Charging Station Rebate,Electricity,https://afdc.energy.gov/laws/11990
 Pennsylvania,Alternative Fuels Incentive Grant (AFIG) Program,"Biodiesel, Ethanol, Electricity, Hydrogen, Natural Gas, Propane",https://afdc.energy.gov/laws/12136
 Pennsylvania,Alternative Fuel Infrastructure and Energy Production Grant Program,Natural Gas,https://afdc.energy.gov/laws/12321
-Pennsylvania,Medium- and Heavy-Duty (MHD) Zero Emission Vehicle (ZEV) Grant,"Electricity, Hydrogen",https://afdc.energy.gov/laws/13135
 Pennsylvania,Commercial Electric Vehicle (EV) Charging Station Rebate - PECO,Electricity,https://afdc.energy.gov/laws/12703
 Rhode Island,Clean Diesel Grant ,"Ethanol, Electricity, Hydrogen, Natural Gas",https://afdc.energy.gov/laws/11774
 South Carolina,Battery Manufacturing Tax Incentive,"Electricity, Hydrogen",https://afdc.energy.gov/laws/8560
@@ -160,7 +154,6 @@ Virginia,Agriculture and Forestry Biofuel Production Grants,"Biodiesel, Ethanol"
 Virginia,Electric Vehicle (EV) Charging Station Rebate – Tennessee Valley Authority (TVA),Electricity,https://afdc.energy.gov/laws/13236
 Washington,Alternative Fueling Infrastructure Grant Program,"Electricity, Hydrogen",https://afdc.energy.gov/laws/11803
 Washington,Commercial Alternative Fuel Vehicle (AFV) and Fueling Infrastructure Tax Credit,"Electricity, Hydrogen, Natural Gas, Propane",https://afdc.energy.gov/laws/11642
-Washington,Electric Vehicle (EV) and Fuel Cell Electric Vehicle (FCEV) Infrastructure and Battery Tax Credit,"Electricity, Hydrogen",https://afdc.energy.gov/laws/6532
 Washington,Utility Electrification Plans and Return on Investment Authorization,Electricity,https://afdc.energy.gov/laws/11610
 Washington,Green Transportation Grant Program,"Electricity, Hydrogen",https://afdc.energy.gov/laws/12222
 Washington,Biodiesel Feedstock Tax Exemption,Biodiesel,https://afdc.energy.gov/laws/8261
