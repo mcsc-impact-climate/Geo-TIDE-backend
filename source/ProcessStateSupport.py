@@ -1,9 +1,7 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 Created on Thu Aug 31 14:52:00 2023
 
-@author: danikam
+Author: danikae
 """
 
 # Import needed modules
